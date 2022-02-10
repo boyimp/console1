@@ -1,0 +1,13 @@
+name: linter
+
+on: push
+
+jobs:
+  name: linter
+  runner: ubuntu-latest
+  steps:
+    - name: action-1
+    - uses: library@v1
+
+    -name: action-2
+    -uses: library@v3
