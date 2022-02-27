@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: 'xemTop'
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
